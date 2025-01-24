@@ -1,0 +1,21 @@
+{
+  "name": "rocketseat-node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/combizera/rocketseat-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/combizera/rocketseat-node/issues"
+  },
+  "homepage": "https://github.com/combizera/rocketseat-node#readme"
+}

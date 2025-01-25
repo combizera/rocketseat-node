@@ -18,12 +18,16 @@ const server = http.createServer((request, response) => {
       email: 'ygor@combi.com',
     })
 
-    return response.end(`User ${users[0].name} created`);
+    return response
+      .writeHead(201)
+      .end();
   }
 
   console.log(method, url);
 
-  return response.end('Hello World');
+  return response
+    .writeHead(404)
+    .end('Not Found');
 })
 
 server.listen(3333);

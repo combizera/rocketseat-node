@@ -44,3 +44,7 @@ Em resumo, a escolha entre stateful e stateless depende das necessidades especí
 Essa eficiência foi uma das razões que fizeram o Node.js ganhar destaque.
 
 ---
+
+## Buffer
+
+O buffer é a representação de um espaço na memória de um computador. Para transitar dados de maneira muito rápida.
